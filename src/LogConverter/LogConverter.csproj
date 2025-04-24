@@ -13,7 +13,7 @@
 <PropertyGroup>
   <!-- Paket kimliği ve sürüm -->
   <PackageId>LogConverter</PackageId>
-  <Version>1.0.1</Version>
+  <Version>1.0.2</Version>
 
   <!-- Geliştirici, şirket, hibe açıklaması -->
   <Authors>Mehmet Akbaba</Authors>
