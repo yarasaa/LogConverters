@@ -8,7 +8,7 @@
 <PropertyGroup>
   <!-- Paket kimliği ve sürüm -->
   <PackageId>LogConverter</PackageId>
-  <Version>1.0.0</Version>
+  <Version>1.0.1</Version>
 
   <!-- Geliştirici, şirket, hibe açıklaması -->
   <Authors>Mehmet Akbaba</Authors>
@@ -19,10 +19,10 @@
   <PackageLicenseExpression>MIT</PackageLicenseExpression>
 
   <!-- Kaynak kodunuzun adresi -->
-  <RepositoryUrl>https://github.com/username/LogConverters</RepositoryUrl>
+  <RepositoryUrl>https://github.com/yarasaa/LogConverters</RepositoryUrl>
 
   <!-- Opsiyonel: simge ikonu, proje web sayfası, etiketler -->
-  <PackageProjectUrl>https://github.com/username/LogConverters</PackageProjectUrl>
+  <PackageProjectUrl>https://github.com/yarasaa/LogConverters</PackageProjectUrl>
   <PackageTags>logging;formatter;markdown;html;csv;json;xml</PackageTags>
 </PropertyGroup>
 </Project>
