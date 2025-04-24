@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+<PropertyGroup>
+  <!-- Paket kimliği ve sürüm -->
+  <PackageId>LogConverter</PackageId>
+  <Version>1.0.0</Version>
+
+  <!-- Geliştirici, şirket, hibe açıklaması -->
+  <Authors>Mehmet Akbaba</Authors>
+  <Company>yarasa</Company>
+  <Description>Kullanıcı dostu log formatlama kütüphanesi (Markdown, HTML, CSV, JSON, XML)</Description>
+
+  <!-- Lisans: MIT, Apache-2.0, vs. -->
+  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+  <!-- Kaynak kodunuzun adresi -->
+  <RepositoryUrl>https://github.com/username/LogConverter</RepositoryUrl>
+
+  <!-- Opsiyonel: simge ikonu, proje web sayfası, etiketler -->
+  <PackageProjectUrl>https://github.com/username/LogConverter</PackageProjectUrl>
+  <PackageTags>logging;formatter;markdown;html;csv;json;xml</PackageTags>
+</PropertyGroup>
+</Project>

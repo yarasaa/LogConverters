@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "LogConverter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/LogConverter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LogConverter.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LogConverter/1.0.0": {
+      "type": "project",
+      "path": "../LogConverter/LogConverter.csproj",
+      "msbuildProject": "../LogConverter/LogConverter.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "LogConverter >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/U05754/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/U05754/Documents/Projects/LogConverterSolution/src/LogTestApp/LogTestApp.csproj",
+      "projectName": "LogTestApp",
+      "projectPath": "/Users/U05754/Documents/Projects/LogConverterSolution/src/LogTestApp/LogTestApp.csproj",
+      "packagesPath": "/Users/U05754/.nuget/packages/",
+      "outputPath": "/Users/U05754/Documents/Projects/LogConverterSolution/src/LogTestApp/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/U05754/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/U05754/Documents/Projects/LogConverterSolution/src/LogConverter/LogConverter.csproj": {
+              "projectPath": "/Users/U05754/Documents/Projects/LogConverterSolution/src/LogConverter/LogConverter.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
