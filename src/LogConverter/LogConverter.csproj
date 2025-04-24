@@ -19,10 +19,10 @@
   <PackageLicenseExpression>MIT</PackageLicenseExpression>
 
   <!-- Kaynak kodunuzun adresi -->
-  <RepositoryUrl>https://github.com/username/LogConverter</RepositoryUrl>
+  <RepositoryUrl>https://github.com/username/LogConverters</RepositoryUrl>
 
   <!-- Opsiyonel: simge ikonu, proje web sayfası, etiketler -->
-  <PackageProjectUrl>https://github.com/username/LogConverter</PackageProjectUrl>
+  <PackageProjectUrl>https://github.com/username/LogConverters</PackageProjectUrl>
   <PackageTags>logging;formatter;markdown;html;csv;json;xml</PackageTags>
 </PropertyGroup>
 </Project>
